@@ -1,0 +1,350 @@
+*{
+    /* background-image: url(img/fondoPast.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center;
+    background-attachment: fixed; */
+    margin: 0; 
+    padding: 0;
+}
+body{
+     background-image: url(img/fondoPast.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+
+} 
+
+.letra-logo {
+    width: 0.5rem;
+    color: rgb(250, 219, 240);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px ;
+    align-items: start;
+    justify-content: flex-start;
+
+}
+.pastel-logo{
+    padding: left;
+    width: 3.8rem;
+    transition: all 0.3s ease;
+}
+.pastel-logo:hover{
+   width:4rem ;
+    transform: scale(1.05);
+}
+#navegador  {
+  background: #ff69b4;
+  padding: 40px;
+  text-align: center;
+  color: white ¡;
+  position: relative;
+}
+
+#navegador::after {
+  content: "";
+  position: absolute;
+  bottom: -95px; 
+  left: 0;
+  width: 100%;
+  height: 100px; 
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 100' preserveAspectRatio='none'%3E%3Cpath fill='%23ff69b4' d='M0 0H1440V15C1410 18 1385 10 1350 25C1315 40 1290 85 1240 90C1190 95 1160 20 1110 18C1060 16 1035 60 985 95C935 110 910 25 860 20C810 15 785 70 730 80C675 90 650 15 600 12C550 9 525 85 470 95C415 105 390 20 335 18C280 16 255 50 200 40C145 30 120 70 70 45C35 25 15 20 0 15V0Z'/%3E%3C/svg%3E");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#navegador ul li a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(247, 243, 237);
+    font-size: 1.8rem;
+
+}
+#navegador ul li a:hover{
+    color: #5b0434;
+    font-size: 1.9rem;
+    transition: all 0.3s ease;
+}
+#banner{
+    background-color: #ea085b;
+}
+.text-center{
+   margin-top: 0.2rem;
+    color: white;
+     border-radius: 0 0 50px 50px;
+}
+.fw-bold{
+    margin-top: 2.6rem;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+     border-radius: 0 0 50px 50px;
+     transition: all 0.3s ease;
+
+}
+.fw-bold:hover{
+font-size: 1.5;
+    transform: scale(1.05);
+}
+#botones-menu{
+    background-color: #fccfe0;
+    font-size: 2.3rem;
+    color: #ea085b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid #ea085b;
+    transition: all 0.3s ease;
+}
+#botones-menu:hover{
+    transform: scale(1.05);
+    font-size: 2.8rem;
+}
+
+#targ-menu {
+    list-style: none;
+    text-decoration: none;
+}
+#targ-menu li h2 a {
+    margin-top: 2rem;
+    margin-left: 37rem;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: none;
+    color: #df0857;
+}
+#cupcakes-menu{
+    font-size: 3rem;
+}
+#pasteles-menu{
+    font-size: 3rem;
+}
+#cheesecakes-menu{
+    font-size: 3rem;
+}
+#boton-orden{
+    background-color: #ea085b;
+    border: #ea085b;
+}
+#boton{
+    background-color: #ea085b;
+    color: black;
+}
+
+
+
+#text-banner{
+font-size: 1.2rem;
+font-family: Georgia, 'Times New Roman', Times, serif;
+transition: all 0.3s ease;
+}
+#text-banner:hover{
+    font-size: 1.5;
+    transform: scale(1.05);
+    
+}
+/* #navegador{
+  color: rgb(242, 244, 246) ¡important;
+  background: #ff69b4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+} */
+.whatsapp-icon{
+  background: rgba(255,255,255,0.25);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.whatsapp-icon:hover{
+  background: white;
+}
+.whatsapp-icon:hover svg{
+  fill: #ff69b4;
+}
+
+.glaseado{
+    width: 100%;
+    height: 4rem;
+   }
+#text-nav ul li a{
+    text-decoration: none;
+    list-style:none;
+    color: rgb(249, 252, 254) ¡important;
+    font-size: 1.5rem;
+    justify-content: rigth;
+    margin: 1rem;
+    display:flex;
+}  
+#modal{
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #d81b6000;
+    text-decoration: none;
+    list-style:none;
+    color: rgb(249, 252, 254);
+    justify-content: rigth;
+    margin: 1rem;
+    display:flex; 
+    transition: all 0.3s ease;
+}
+#modal:hover{
+    color: #5b0434;
+    font-size: 1.9rem;
+    transform: scale(1.05);
+}
+
+
+
+.modal-header{
+    background-color: #f3367b64;
+    color: #d81b60;
+    text-align: center;
+    font-size: 10px;
+}
+.modal-title{
+    margin-left: 12rem ;
+      text-align: center;
+}
+.modal-body{
+    background-color: #fe689f3d;
+    color: #d81b60;
+    font-family: 'Times New Roman', Times, serif;
+}
+#boton-modal{
+    background-color: #df0857e8;
+    border-color: #df0857;
+    transition: all 0.3s ease;
+}
+#boton-modal:hover{
+    transform:scale(1.05) ;
+}
+
+.modal-footer{
+    background-color: #f3367b;
+}
+
+
+/* opciones desplegables*/
+.dropdown-menu {
+  border: none ;
+  border-radius: 20px !important;
+  box-shadow: 0 10px 30px rgba(255, 105, 180, 0.25) !important;
+  padding: 0.8rem !important;
+  margin-top: 1.1rem !important;
+  min-width: 220px;
+  background: white !important;
+  animation: aparecer 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item {
+  border-radius: 12px;
+  padding: 10px 16px !important;
+  color: #d81b60 !important;
+  font-weight: 500;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background: #ffe4f0 !important;
+  color: #ff1493 !important;
+  transform: translateX(4px);
+  transition: 0.2s;
+}
+
+.dropdown-divider {
+  border-color: #ef5ea0 !important;
+}
+#mas-v{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
+    color: #ff0080;
+    transition: all 0.3s ease;
+}
+#mas-v:hover{
+    color: rgb(148, 3, 97);
+    font-size: 3.5rem;
+    transform: scale(1);
+}
+#boton-vm{
+    background-color: #f9acc8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ea085b;
+    transition: all 0.3s ease;} 
+    #boton-vm:hover{
+        transform: scale(1.05);
+
+    }
+.card {
+
+  border: 1rem solid #ff69b4 !important;
+  border-radius: 20px !important;
+  box-shadow: 15px 15px 20px #ff149134;
+  overflow: hidden;
+
+ }
+ .card:hover{
+    background-color: #f9acc8;
+    transform: scale(1.05);
+    box-shadow: 0px 15px 20px #ff14911c;
+
+ }
+.h1-card{
+    color: #ff0088;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .card-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(17, 16, 16);
+   font-size:1.2rem ;
+  }
+  .card-img-top {
+
+  height: 220px;
+  object-fit:contain;
+}
+
+.card-title {
+  min-height: 40px;
+font-size: 1.5rem;}
+#tarjetas-plus{
+    color: black;
+    border: #f9acc8;
+}
+#boton-targ{
+    justify-content: center;
+    align-items: center;
+    background-color: #ff1493;
+   border: #ff1493;
+   margin: 0.5rem;
+   transition: all 0.3s ease;
+
+  }
+  #titu-menu{
+    color: #ea085b;
+  }
+ #boton-targ:hover{
+    transform:scale(1.15) ;
+ }
+ .p-cup{
+  display: flex;
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 16rem;
+  align-items: center;
+  color:#ff1493;
+ }
+ #pie{
+    margin-top: 3rem;
+ }
